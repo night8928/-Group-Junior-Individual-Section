@@ -28,6 +28,5 @@ const Nerspot = () => {
         </div>
     );
 
-}
 
 export default Nerspot;
