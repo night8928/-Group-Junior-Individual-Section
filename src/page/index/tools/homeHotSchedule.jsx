@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import "./homeHotSchedule.css";
 const Homesch = () => {
-
+        const handleSave = () => {
+          alert("儲存成功！");
+        };
 
     return (
         <section className="campus">
@@ -22,7 +24,7 @@ const Homesch = () => {
                         富士急高地樂園<br/>
                         小田急箱根高地飯店
                     </p>
-                    <button type="button">儲存此行程表</button>
+                    <button type="button" onClick={handleSave}>儲存此行程表</button>
                 </div>
             </div>
             <div className="campus-col">
@@ -33,12 +35,12 @@ const Homesch = () => {
                     晴空塔<br/>
                     淺草寺<br/>
                     明治神宮<br/>
-                    代代木公園<br/>
+                    上野恩賜公園<br/>
                     三鷹之森<br/>
                     秋葉原<br/>
                     東京灣東急大飯店
                     </p>
-                    <button type="button">儲存此行程表</button>
+                    <button type="button" onClick={handleSave}>儲存此行程表</button>
                 </div>
             </div>
             <div className="campus-col">
@@ -54,7 +56,7 @@ const Homesch = () => {
                     東京迪士尼海洋<br/>
                     東京灣喜來登大飯店
                     </p>
-                    <button type="button">儲存此行程表</button>
+                    <button type="button" onClick={handleSave}>儲存此行程表</button>
                 </div>
             </div>
         </div>
